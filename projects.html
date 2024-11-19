@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" viewport="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<title>Project's Page</title>
+	<!--
+	Christopher Davis
+	Date: 5/2/2023
+	This is the project's page of the project tracker program 
+	-->
+</head>
+<body id="darkMode" style="background-image: url(bodyImages/backgroundTwo.jpg);">
+	<div id="header">
+		<h1>Tracked Project's</h1>
+	</div>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="projects.html">Project's</a>
+		<a id="change" href="#">Mode Change</a>
+	</div>
+	<div id="main">
+		<div id="form">
+			<div id="input">
+				<label id="titleLabel" for="title">Project Title: </label>
+				<input type="text" name="title" id="title">
+				<span>* required</span>
+			</div>
+
+			<div id="input">
+				<label id="dateLabel" for="title">Start Date: </label>
+				<input type="text" name="start" id="start">
+				<span>* required</span>
+			</div>
+
+			<div id="input">
+				<label id="descLabel" for="desc">Project Description: </label>
+				<input type="textarea" name="desc" id="desc">
+				<span>* required</span>
+			</div>
+
+			<div id="input">
+				<input type="button" id="addButton" value="Add Project">
+			</div>
+		</div>
+		<div id="display">
+		</div>
+	</div>
+	<div id="footer">
+		<div id="column">
+			<h2>Empty Footer</h2>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="projects.js"></script>
+</body>
+</html>

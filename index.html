@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" viewport="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<title>Project Tracker Home</title>
+	<!--
+	Christopher Davis
+	Date: 5/2/2023
+	This is the home page of the project tracker program 
+	-->
+</head>
+<body id="darkMode" style="background-image: url(bodyImages/background.jpg);">
+	<div id="header">
+		<h1>Project Tracker</h1>
+	</div>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="projects.html">Project's</a>
+		<a id="change" href="#">Mode Change</a>
+	</div>
+	<div id="main">
+		<div id="content">
+			<h1>Project 2.7T</h1>
+			<ul id="imageList">
+	            <li><a href="images/imageOne.jpg"></a></li>
+	            <li><a href="images/imageTwo.jpg"></a></li>
+	            <li><a href="images/imageThree.jpg"></a></li>
+	            <li><a href="images/imageFour.jpg"></a></li>
+	            <li><a href="images/imageFive.jpg"></a></li>
+	            <li><a href="images/imageSix.jpg"></a></li>
+	            <li><a href="images/imageSeven.PNG"></a></li>
+			</ul>
+			<div id="slideshowContainer">
+				<img id="slideshow" src="images/imageOne.jpg" alt="" />
+				<p>
+	                <input type="button" id="startButton" value="Start">
+	                <input type="button" id="stopButton" value="Stop" disabled>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="column">
+			<h2>Empty Footer</h2>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
